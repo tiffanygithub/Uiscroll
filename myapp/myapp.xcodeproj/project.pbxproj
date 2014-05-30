@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98643E0819373B95006DA6B3 /* SherginNavigationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98643E0719373B95006DA6B3 /* SherginNavigationTableViewController.m */; };
+		98643E0B19373BE9006DA6B3 /* SherginScrollableNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 98643E0A19373BE9006DA6B3 /* SherginScrollableNavigationBar.m */; };
 		9869D2041935E24D0022E8CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9869D2031935E24D0022E8CA /* Foundation.framework */; };
 		9869D2061935E24D0022E8CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9869D2051935E24D0022E8CA /* CoreGraphics.framework */; };
 		9869D2081935E24D0022E8CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9869D2071935E24D0022E8CA /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98643E0619373B95006DA6B3 /* SherginNavigationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SherginNavigationTableViewController.h; sourceTree = "<group>"; };
+		98643E0719373B95006DA6B3 /* SherginNavigationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SherginNavigationTableViewController.m; sourceTree = "<group>"; };
+		98643E0919373BE9006DA6B3 /* SherginScrollableNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SherginScrollableNavigationBar.h; sourceTree = "<group>"; };
+		98643E0A19373BE9006DA6B3 /* SherginScrollableNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SherginScrollableNavigationBar.m; sourceTree = "<group>"; };
 		9869D2001935E24D0022E8CA /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9869D2031935E24D0022E8CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9869D2051935E24D0022E8CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,8 +122,12 @@
 			isa = PBXGroup;
 			children = (
 				9869D2121935E24D0022E8CA /* TableTamplateAppDelegate.h */,
+				98643E0919373BE9006DA6B3 /* SherginScrollableNavigationBar.h */,
+				98643E0A19373BE9006DA6B3 /* SherginScrollableNavigationBar.m */,
 				9869D2131935E24D0022E8CA /* TableTamplateAppDelegate.m */,
 				9869D2151935E24D0022E8CA /* Main.storyboard */,
+				98643E0619373B95006DA6B3 /* SherginNavigationTableViewController.h */,
+				98643E0719373B95006DA6B3 /* SherginNavigationTableViewController.m */,
 				9869D2181935E24D0022E8CA /* TableTamplateFirstViewController.h */,
 				9869D2191935E24D0022E8CA /* TableTamplateFirstViewController.m */,
 				9869D21B1935E24D0022E8CA /* TableTamplateSecondViewController.h */,
@@ -255,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98643E0B19373BE9006DA6B3 /* SherginScrollableNavigationBar.m in Sources */,
 				9869D2101935E24D0022E8CA /* main.m in Sources */,
+				98643E0819373B95006DA6B3 /* SherginNavigationTableViewController.m in Sources */,
 				9869D21D1935E24D0022E8CA /* TableTamplateSecondViewController.m in Sources */,
 				9869D21A1935E24D0022E8CA /* TableTamplateFirstViewController.m in Sources */,
 				9869D2141935E24D0022E8CA /* TableTamplateAppDelegate.m in Sources */,
@@ -463,6 +475,7 @@
 				9869D2371935E24D0022E8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9869D2381935E24D0022E8CA /* Build configuration list for PBXNativeTarget "myappTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +484,7 @@
 				9869D23A1935E24D0022E8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

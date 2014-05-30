@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14019E45-D9B1-44EF-94C0-8438A4F66FA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>myapp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>32CEDA81-6E73-483F-B9EE-9C91A5513550</key>
+		<string>https://github.com/tiffanygithub/Uiscroll.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>myapp/myapp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>32CEDA81-6E73-483F-B9EE-9C91A5513550</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tiffanygithub/Uiscroll.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>32CEDA81-6E73-483F-B9EE-9C91A5513550</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>32CEDA81-6E73-483F-B9EE-9C91A5513550</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Uiscroll</string>
+		</dict>
+	</array>
+</dict>
+</plist>
